@@ -1,0 +1,2 @@
+//kodutöö
+//Rattatreeningu kilometraaži arvutamine
