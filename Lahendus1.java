@@ -1,1 +1,1 @@
-//Kodutöö põhineb millegil
+//Kodutöö põhineb palga arvutamisel
