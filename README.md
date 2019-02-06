@@ -1,1 +1,7 @@
 # k01funktsioon
+
+Esimene kodutöö
+
+Igaüks koostab temaatilise spetsiifilise funktsiooni ning demonstreerib selle tööd näitandmete abil.
+
+Arvutus võib olla lihtne, aga lugejatel/kuulajatel võiks käsitletava teema kohta midagi õppida olla
