@@ -1,2 +1,2 @@
 //Siia tuleb esimese kodutöö lahendus
-//Kavatsen luua funktsiooni mootorite kubatuuri võimsuste suhete arvutamiseks
+//Kavatsen luua funktsiooni meetermõõdustikus mõõtude convertimiseks tollmõõdustikku
