@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-public class Kodune1{
+public class Kodutöö1{
 	public static String hinnang(double kmindeks){
 		String vastus = "";
 		if (kmindeks > 40.1){
