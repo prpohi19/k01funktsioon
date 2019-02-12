@@ -1,0 +1,38 @@
+package tund1;
+
+import java.util.Random;
+
+public class Game {
+    public static String returnWinner(int playerLevel, int monsterLevel){
+        String winner = "";
+        double healthModifier = 1.5;
+
+        double playerHealth = playerLevel * healthModifier;
+        double monsterHealth = monsterLevel * healthModifier;
+
+        Random r = new Random();
+
+        while (playerHealth > 0 && monsterHealth > 0){
+            int attacker = r.nextInt(2);
+            int damageReceived = r.nextInt(5);
+
+            if (attacker == 0) {
+                monsterHealth -= damageReceived;
+            } else {
+                playerHealth -= damageReceived;
+            }
+        }
+
+        String data = " (Player " + (int)(playerHealth)
+                + " & monster " + (int)(monsterHealth)
+                + ")";
+
+        if (playerHealth > monsterHealth) {
+            winner = "Player wins" + data;
+        } else if (monsterHealth > playerHealth) {
+            winner = "Monster wins" + data;
+        }
+
+        return winner;
+    }
+}
