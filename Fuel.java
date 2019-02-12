@@ -54,7 +54,7 @@ public class Fuel {
 
     public static void main(String[] arg) {
         System.out.println("Täis paak: " +  fuelTank + " liitrit");
-        System.out.println("Pikkus: " + lapLenght + " km.");
+        System.out.println("Ringi pikkus: " + lapLenght + " km.");
         System.out.println();
         System.out.println("Keskmine kütusekulu ringi peale: " + String.format("%.3f",avgFuelPerLap()) + " liitrit");
         System.out.println("Keskmine kütusekulu km peale: " + String.format("%.3f", avgFuelPerKm(lapLenght)) + " liitrit");
