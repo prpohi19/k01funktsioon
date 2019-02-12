@@ -1,5 +1,7 @@
 java kood ja tuleb esimese kodutöö lahendus
 kodutööks on teisendus kilogrammist grammideks ja vastupidi
+//Kaks eraldi java classi, Main.java ja fyysika.java
+
 Main.java
 public class Main {
 
@@ -26,4 +28,3 @@ public class fyysika {
     }
 }
 
-//Kaks eraldi java classi, Main.java ja fyysika.java
