@@ -1,7 +1,7 @@
 //Siia tuleb esimese kodutöö lahendus
 //Hobujõu ja kilowattide mõõtmine
 
-public class Ulesanne{
+public class kodutoo1{
     
     public static double horsePower(){
       	
@@ -15,6 +15,6 @@ public class Ulesanne{
 		
 	  double convert = 735.49875;	
 	  double watt = (Math.round((horsePower() * convert)*100.0)/100.0) / 1000;
-      System.out.println("Hobujoud on " + horsePower() + " ehk " + watt + " kW.");
+      	  System.out.println("Hobujoud on " + horsePower() + " ehk " + watt + " kW.");
     }
 }
