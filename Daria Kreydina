@@ -14,7 +14,7 @@ public class valem{
 		System.out.println(leiaEsemeKaugus(100, leiaLaatseSuurendus(2, 4)));
 	}
 }
-
+ 
 
 
 /*   Läätse suurendus (s) iseloomustab mitu korda erinevad kujutise joonmõõtmed- 
