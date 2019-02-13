@@ -8,8 +8,8 @@ public class Ulesanne{
         double torque = 225;
         double rpm = 3000;
         
-		return Math.round((torque*rpm/5252)*100.0)/100.0;
-		}
+	return Math.round((torque*rpm/5252)*100.0)/100.0;
+	}
 	
 	public static void main(String[] arg){
 		
