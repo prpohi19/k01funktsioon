@@ -1,2 +1,2 @@
 //Siia tuleb esimese kodutöö lahendus
-//Kavatsen luua uue funktsiooni ... arvutamiseks.
+//Kavatsen luua uue funktsiooni ... arvutamiseks. 
