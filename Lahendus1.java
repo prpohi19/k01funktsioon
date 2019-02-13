@@ -83,6 +83,25 @@ public class Main {
         System.out.println("Valmis! Sisesta konsooli:\nchmod " + String.format("%04d", notation) + " failinimi");
 
     }
-
-
 }
+
+/* Näidisväljund
+
+
+Tere tulemast chmod-generaatorisse!
+Palun sisesta soovitud spetsiaalsed tähised:
+setuid - u, setgid - g, sticky bit - t (võib tühjaks jätta)
+>u
+Palun sisesta soovitud kasutaja õigused (võib tühjaks jätta):
+lugemine - r, kirjutamine - w, käivitamine - x (setuid töötamiseks tuleb execute määrata)
+>rwx
+Palun sisesta soovitud grupi õigused (võib tühjaks jätta):
+lugemine - r, kirjutamine - w, käivitamine - x (võib tühjaks jätta)
+>rw
+Palun sisesta soovitud teiste õigused (võib tühjaks jätta):
+lugemine - r, kirjutamine - w, käivitamine - x (võib tühjaks jätta)
+>r
+Valmis! Sisesta konsooli:
+chmod 4764 failinimi
+
+*/
