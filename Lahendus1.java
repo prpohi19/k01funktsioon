@@ -16,7 +16,9 @@ public class Calc {
             //Määrab, kas tulumkasuvabastus on 500 või vähem
             if (bruto <= 1200) {
                 //Arvutab palgast maha tulumaksu
-                palk = ((palk-500)*0.8)+500;
+				if(bruto >=500){
+					palk = ((palk-500)*0.8)+500;
+				}
             } else if (bruto <= 2100){
                 double maksuvabatulu = (6000 - (6000.0/10800*(bruto*12-14400)))/12;
                 System.out.println(maksuvabatulu);
