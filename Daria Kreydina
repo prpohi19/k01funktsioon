@@ -1,0 +1,27 @@
+public class valem{
+	
+	public static double leiaLaatseSuurendus(double KujutisePikkus, double EsemeJoonmootmeteSuurus){
+		return KujutisePikkus/EsemeJoonmootmeteSuurus;
+	}
+	
+	public static double leiaEsemeKaugus(double KujutiseKaugus, double laatseSuurendus){
+		return KujutiseKaugus/laatseSuurendus;
+    }
+
+	
+	public static void main(String[] arg){
+		System.out.println(leiaLaatseSuurendus(100, 20));
+		System.out.println(leiaEsemeKaugus(100, leiaLaatseSuurendus(2, 4)));
+	}
+}
+ 
+
+
+/*   Läätse suurendus (s) iseloomustab mitu korda erinevad kujutise joonmõõtmed- 
+kujutise pikkus ekraanil (H)
+eseme joonmõõtmete suurusest (h)  
+s=H/h
+
+Saab näidata et analoogiline seos kehtib ka kujutise kauguse (k) ja eseme kauguse(a) vahel 
+s=k/a  => eseme kaugus  a= k/s */
+
