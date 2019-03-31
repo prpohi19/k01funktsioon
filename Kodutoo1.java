@@ -1,2 +1,2 @@
 //kodutöö
-//Rattatreeningu kilometraaži arvutamine
+//Rattatreeningu keskmise kiiruse arvutamine
